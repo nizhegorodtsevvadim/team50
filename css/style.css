@@ -1,0 +1,45 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+
+}
+
+body {
+    max-width: 350px;
+    max-height: 480px;
+    background-color: #2C2C2C;
+
+}
+
+a {
+    color: #696969;
+    text-decoration: none;
+}
+
+.container {
+    /* display: flex;
+    justify-content: space-between; */
+
+}
+
+.table {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    
+ }
+
+td{
+    padding: 6px;
+ }
+
+.thead {
+    color: #696969;
+    border-bottom: 10px solid white;
+
+}
+
+.tbody {
+    color: white;
+}
